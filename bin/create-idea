@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+import { createInteractive } from '../dist/main.js';
+createInteractive();

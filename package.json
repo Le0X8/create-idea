@@ -1,0 +1,45 @@
+{
+  "name": "create-idea",
+  "version": "0.1.0",
+  "description": "Create a JavaScript/TypeScript project (with custom template support!)",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "module": "dist/main.js",
+  "bin": {
+    "create-idea": "bin/create-idea"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "pnpm-lock.yaml",
+    "package.json",
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Le0X8/create-idea.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "Leonard Lesinski",
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.1",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "terser": "^5.39.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "@inquirer/confirm": "^5.1.7",
+    "@inquirer/input": "^4.1.7",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "env-paths": "^3.0.0"
+  }
+}
